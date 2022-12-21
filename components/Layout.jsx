@@ -5,18 +5,18 @@ const Layout = ({ children }) => (
     <>
         <Head>
             <title>Real State</title>
-            <Box maxWidth='1280px' m='auto'>
-                <header>
-                    Navbar
-                </header>
-                <main>
-                    { children }
-                </main>
-                <footer>
-                    Footer
-                </footer>
-            </Box>
         </Head>
+        <Box maxWidth='1280px' m='auto'>
+            <header>
+                Navbar
+            </header>
+            <main>
+                { children }
+            </main>
+            <footer>
+                Footer
+            </footer>
+        </Box>
     </>
 )
 
