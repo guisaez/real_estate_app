@@ -3,10 +3,10 @@ import { Box } from '@chakra-ui/react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-const Layout = ({ children }) => (
+const Layout = ({children}) => (
     <>
         <Head>
-            <title>Real State</title>
+            <title>Real Estate</title>
         </Head>
         <Box maxWidth='1280px' m='auto'>
             <header>
