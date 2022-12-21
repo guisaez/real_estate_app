@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { Box } from '@chakra-ui/react'
 
-const Layout = ({ children }) => (
+const Layout = ({children}) => (
     <>
         <Head>
-            <title>Real State</title>
+            <title>Real Estate</title>
         </Head>
         <Box maxWidth='1280px' m='auto'>
             <header>
