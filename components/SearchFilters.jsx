@@ -9,6 +9,7 @@ import { filterData, getFilterValues } from '../utils/filterData';
 const SearchFilters = () => {
 
     const [filter, setFilters] = useState(filterData);
+    
     const router = useRouter();
 
     const searchProperties = (filterValues) => {
